@@ -102,7 +102,7 @@ def start(page, tag):
 
 
 if __name__ == '__main__':
-    init_logger(False)
+    #init_logger(False)
     logging.info('Logger init...')
     if len(sys.argv) == 1:
         logging.warning('no param getted, use the default one')
